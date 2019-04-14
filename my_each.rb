@@ -1,7 +1,7 @@
 def my_each(name)
   i = 0 
   while i < name.length 
-  yield name[i]
+  yield(name[i])
     i = i + 1 
   end 
 end
