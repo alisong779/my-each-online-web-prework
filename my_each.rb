@@ -1,5 +1,9 @@
 def my_each(name)
-  while name 
+  i = 0 
+  while i < name.length 
+  yield name[i]
+    i = i + 1 
+  end 
 end
 
 collection = [1, 2, 3, 4]
