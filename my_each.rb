@@ -4,6 +4,7 @@ def my_each(name)
   yield(name[i])
     i = i + 1 
   end 
+  name 
 end
 
 collection = [1, 2, 3, 4]
